@@ -1,7 +1,11 @@
 # DeepQ-NeuralNetwork-Pong
 
 
-<iframe id="github-iframe" src=""></iframe>
+
+<!DOCTYPE html>
+<html>
+<body>
+    <iframe id="github-iframe" src=""></iframe>
 <script>
     fetch('https://www.youtube.com/watch?v=J-lmPqTB6wU&t=3s')
         .then(function(response) {
@@ -11,3 +15,5 @@
             iframe.src = 'data:text/html;base64,' + encodeURIComponent(data['content']);
         });
 </script>
+</body>
+</html>
