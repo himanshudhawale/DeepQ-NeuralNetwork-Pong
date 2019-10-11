@@ -1,0 +1,43 @@
+Logging to /users/hdhawale/gitfolder/MachineLearning-Research/generalization/atari/BaseDQN_atari/results/Pong/Pong_logs
+-------------------------------------------
+| batch_size         | 64                 |
+| discount_factor    | 0.99               |
+| double             | True               |
+| env_id             | PongNoFrameskip-v4 |
+| episodes           | 300                |
+| eval_episodes      | 50                 |
+| eval_freq          | 300000             |
+| filter1            | 32                 |
+| filter2            | 64                 |
+| filter3            | 64                 |
+| filter4            | 16                 |
+| frame_stack        | 4                  |
+| grad_clip          | 10                 |
+| iterations         | 70000000           |
+| max_size           | 1000000            |
+| noop_max           | 30                 |
+| optimizer          | adam               |
+| pre_iterations     | 10000              |
+| pre_train_freq     | 20                 |
+| pre_training_start | 50                 |
+| size1              | 8                  |
+| size2              | 4                  |
+| size3              | 3                  |
+| size4              | 2                  |
+| strides1           | 4                  |
+| strides2           | 2                  |
+| strides3           | 1                  |
+| strides4           | 1                  |
+| train_freq         | 4                  |
+| training_start     | 50000              |
+| units1             | 512                |
+| units2             | 32                 |
+| units3             | 32                 |
+| units4             | 32                 |
+| units5             | 32                 |
+| units6             | 32                 |
+| units7             | 32                 |
+| units8             | 32                 |
+| update_target_freq | 10000              |
+-------------------------------------------
+Pong. Storing weights after every 1000000 steps

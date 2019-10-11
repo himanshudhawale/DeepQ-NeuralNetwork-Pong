@@ -1,0 +1,18 @@
+[cph-gpu5.uncc.edu:33805] mca_base_component_repository_open: unable to open mca_oob_ud: libosmcomp.so.3: cannot open shared object file: No such file or directory (ignored)
+[cph-gpu5.uncc.edu:33790] mca_base_component_repository_open: unable to open mca_oob_ud: libosmcomp.so.3: cannot open shared object file: No such file or directory (ignored)
+[cph-gpu5.uncc.edu:33790] mca_base_component_repository_open: unable to open mca_btl_openib: libosmcomp.so.3: cannot open shared object file: No such file or directory (ignored)
+[cph-gpu5.uncc.edu:33790] mca_base_component_repository_open: unable to open mca_pml_ucx: libucp.so.0: cannot open shared object file: No such file or directory (ignored)
+2019-07-17 00:37:29.938122: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX512F
+2019-07-17 00:37:30.092245: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1344] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:60:00.0
+totalMemory: 10.92GiB freeMemory: 10.77GiB
+2019-07-17 00:37:30.092287: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2019-07-17 00:37:30.546577: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-17 00:37:30.546623: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2019-07-17 00:37:30.546631: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2019-07-17 00:37:30.546765: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10430 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:60:00.0, compute capability: 6.1)
+WARNING:tensorflow:From /apps/pkg/tensorflow-1.7.0/rhel7_u2-x86_64_ana3/cuda9/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+=>> PBS: job killed: walltime 561636 exceeded limit 561599
